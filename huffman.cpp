@@ -41,7 +41,7 @@ struct Node
 {
     unsigned char ch;
     int freq;
-    int id; // SDE FIX: A unique ID to strictly enforce tie-breaking
+    int id; // A unique ID to strictly enforce tie-breaking
     Node *left;
     Node *right;
 
